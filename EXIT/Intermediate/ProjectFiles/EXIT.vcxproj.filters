@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\EXIT.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{9E2F3A42-40DB-40ED-8DC6-693ABE41999E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EXIT.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\EXITEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{AE484D4B-DC17-4E20-9254-053705B74722}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\EXIT">
+      <UniqueIdentifier>{71B9253C-5AE7-4009-AEF6-B08466CB3332}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EXIT\EXIT.Build.cs">
+      <Filter>Source\EXIT</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\EXIT\EXIT.cpp">
+      <Filter>Source\EXIT</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EXIT\EXIT.h">
+      <Filter>Source\EXIT</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EXIT\EXITGameModeBase.cpp">
+      <Filter>Source\EXIT</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EXIT\EXITGameModeBase.h">
+      <Filter>Source\EXIT</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
