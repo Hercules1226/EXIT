@@ -6,6 +6,7 @@
 #include <Components/StaticMeshComponent.h>
 #include <Kismet/GameplayStatics.h>
 #include "BossBullet.h"
+#include "ExitPlayer.h"
 
 // Sets default values
 ABoss::ABoss()
@@ -38,6 +39,9 @@ void ABoss::Tick(float DeltaTime)
 	case EGameState::Idle:
 		Idle();
 		break;
+	case EGameState::Walk:
+		Walk();
+		break;
 	case EGameState::PatternOne:
 		PatternOne();
 		break;
@@ -58,6 +62,33 @@ void ABoss::Idle()
 		mState = EGameState::PatternOne;
 		currentTime = 0;
 	}
+}
+
+void ABoss::Walk()
+{
+	// 기능이 시작되면 보스는 플레이어의 위치를 찾고 싶다.
+	TArray<AActor*> actors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AExitPlayer::StaticClass(), actors);
+
+	for (AActor* actor : actors)
+	{
+		target = actor;
+	}
+
+	// 플레이어의 위치
+	FVector playerP0 = target->GetActorLocation();
+
+	// 플레이어의 위치 - 보스의 위치 = 보스가 가야 할 방향
+	FVector dir = playerP0 - GetActorLocation();
+	FRotator dirRot = dir.Rotation();
+	SetActorRotation(dirRot);
+
+	FVector v = FVector::ForwardVector;
+	v *= runningSpeed;
+
+	FVector P0 = GetActorLocation();
+	FVector P = P0 + v * GetWorld()->GetDeltaSeconds();
+	SetActorLocation(P);
 }
 
 void ABoss::PatternOne()

@@ -38,7 +38,7 @@ void EmptyLinkFunctionForGeneratedCodeBoss() {}
 		return EGameState_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EGameState(EGameState_StaticEnum, TEXT("/Script/EXIT"), TEXT("EGameState"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_EXIT_EGameState_Hash() { return 2203537861U; }
+	uint32 Get_Z_Construct_UEnum_EXIT_EGameState_Hash() { return 2409254764U; }
 	UEnum* Z_Construct_UEnum_EXIT_EGameState()
 	{
 #if WITH_HOT_RELOAD
@@ -51,6 +51,7 @@ void EmptyLinkFunctionForGeneratedCodeBoss() {}
 		{
 			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
 				{ "EGameState::Idle", (int64)EGameState::Idle },
+				{ "EGameState::Walk", (int64)EGameState::Walk },
 				{ "EGameState::PatternOne", (int64)EGameState::PatternOne },
 				{ "EGameState::PatternTwo", (int64)EGameState::PatternTwo },
 				{ "EGameState::PatternThree", (int64)EGameState::PatternThree },
@@ -67,6 +68,8 @@ void EmptyLinkFunctionForGeneratedCodeBoss() {}
 				{ "PatternThree.Name", "EGameState::PatternThree" },
 				{ "PatternTwo.DisplayName", "PATTERNTWO_STATE" },
 				{ "PatternTwo.Name", "EGameState::PatternTwo" },
+				{ "Walk.DisplayName", "WALK_STATE" },
+				{ "Walk.Name", "EGameState::Walk" },
 			};
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {

@@ -10,6 +10,7 @@ UENUM(BlueprintType)
 enum class EGameState :uint8
 {
 	Idle UMETA(DisplayName = "IDLE_STATE"),
+	Walk UMETA(DisplayName = "WALK_STATE"),
 	PatternOne UMETA(DisplayName = "PATTERNONE_STATE"),
 	PatternTwo UMETA(DisplayName = "PATTERNTWO_STATE"),
 	PatternThree UMETA(DisplayName = "PATTERNTHREE_STATE")
@@ -47,6 +48,8 @@ public:
 		float shootAngle = 36;
 
 	void Idle();
+
+	void Walk();
 
 	void PatternOne();
 
