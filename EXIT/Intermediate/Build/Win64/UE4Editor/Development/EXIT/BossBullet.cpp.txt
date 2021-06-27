@@ -1,6 +1,6 @@
-E:\UnrealProject\Exit_Git\EXIT_Clone\EXIT_Clone\EXIT\Intermediate\Build\Win64\UE4Editor\Development\EXIT\Definitions.EXIT.h
-E:\UnrealProject\Exit_Git\EXIT_Clone\EXIT_Clone\EXIT\Source\EXIT\BossBullet.h
-E:\UnrealProject\Exit_Git\EXIT_Clone\EXIT_Clone\EXIT\Intermediate\Build\Win64\UE4Editor\Inc\EXIT\BossBullet.generated.h
+C:\Users\user\Desktop\UE4 Project\Exit_Git\GitHub\EXIT\EXIT\Intermediate\Build\Win64\UE4Editor\Development\EXIT\Definitions.EXIT.h
+C:\Users\user\Desktop\UE4 Project\Exit_Git\GitHub\EXIT\EXIT\Source\EXIT\BossBullet.h
+C:\Users\user\Desktop\UE4 Project\Exit_Git\GitHub\EXIT\EXIT\Intermediate\Build\Win64\UE4Editor\Inc\EXIT\BossBullet.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
