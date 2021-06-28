@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EXIT.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{14DEB050-12ED-4AE3-B93A-E1D6DF0E6EEC}</UniqueIdentifier>
+      <UniqueIdentifier>{9C85A79C-AFAF-4615-A3DC-7AE03A13BBA4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EXIT.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5E92045F-9329-47F4-AE66-55EA39752003}</UniqueIdentifier>
+      <UniqueIdentifier>{2593B500-FD91-45D4-8AFE-98AA9E4A6619}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\EXIT">
-      <UniqueIdentifier>{AA4EE1F5-F4B8-4D89-B786-7EB7873DAF9E}</UniqueIdentifier>
+      <UniqueIdentifier>{1F1111EF-EC19-45AD-8D5D-EF6E7F54346A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\EXIT\Boss.cpp">
       <Filter>Source\EXIT</Filter>
